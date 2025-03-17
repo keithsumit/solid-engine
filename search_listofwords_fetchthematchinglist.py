@@ -1,5 +1,5 @@
 # open the list of words to search for
-list_file = open('listfilesinDir.txt')
+list_file = open('list_of_words.txt')
 
 search_words = []
 
@@ -15,7 +15,7 @@ list_file.close()
 matches = []
 
 # open the master file
-master_file = open('test_engineer_valimar.txt')
+master_file = open('master_file.txt')
 
 # loop through each line in the master file
 for line in master_file:
@@ -39,7 +39,7 @@ master_file.close()
 
 
 # create the new file
-new_file = open('list_Owners.txt', 'w+')
+new_file = open('new_file.txt', 'w+')
 
 # loop through all of the matched lines
 for line in matches:
