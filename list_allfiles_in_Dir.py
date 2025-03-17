@@ -19,8 +19,8 @@ def list_files_to_file(directories, output_file):
              print(f"Warning: '{directory}' is not a valid directory.")
 
 if __name__ == "__main__":
-    directories_to_scan = ["/home/supandit/sandbox/valimar-ctf-ci/python2/features/L3_Protocols/ospf/", "/home/supandit/sandbox/valimar-ctf-ci/python3/features/L3_Protocols/ospf/MI_ISIS_OSPF_REDISTRIBUTE/", "/home/supandit/sandbox/valimar-ctf-ci/python3/features/L3_Protocols/ospf/OSPF_NSSA/", "/home/supandit/sandbox/valimar-ctf-ci/python3/features/L3_Protocols/ospf/OSPF_SR/", "/home/supandit/sandbox/valimar-ctf-ci/python3/features/L3_Protocols/ospf/OSPF_SR_LAG/", "/home/supandit/sandbox/valimar-ctf-ci/python3/features/L3_Protocols/ospf/OSPF_SR_TILFA/"] # Replace with your directory paths
-    output_filename = "listfilesinDir.txt"
+    directories_to_scan = ["path_to_dir1", "path_to_dir2", "path_to_dir3", "path_to_dir4", "path_to_dir5"] # Replace with your directory paths
+    output_filename = "listallfilesinDir.txt"
 
     list_files_to_file(directories_to_scan, output_filename)
     print(f"File list written to '{output_filename}'")
